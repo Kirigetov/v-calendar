@@ -41,6 +41,8 @@ export default {
         attributesMap: this.day.attributesMap,
         dayProps: this.dayContentProps,
         dayEvents: this.dayContentEvents,
+        dayContentClass: this.dayContentClass,
+        dayContentStyle: this.dayContentStyle,
       }) ||
       h(
         'span',
